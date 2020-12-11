@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DATS 6103</title>
+  <!---- bootstrap cdn-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <!-----google fonts-->
+   <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Roboto+Mono:wght@200&family=Source+Serif+Pro:wght@300&display=swap"
+   rel="stylesheet">
+   <!----local css-->
+  <link rel="stylesheet" href="./css/style.css">
+ </head>
+<body>
+
+<!--- Start of navbar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 sticky-top">
+    <button type="button" class="navbar-toggler ml-3" data-toggle="collapse" data-target="#navbarNav" aria-control="navbarNav">
+        <span class="navbar-toggler-icon "></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-3 active"><a class="nav-link link-special text-capitalize font-weight-bold text-light" href="index.html">Home</a></li>  
+            <li class="nav-item px-3 active"><a class="nav-link link-special text-capitalize font-weight-bold text-light" href="certification.html">Certification </a></li>
+        <li class="nav-item px-3 active"><a class="nav-link link-special text-capitalize font-weight-bold text-light" href="prediction.html">Predictions</a></li></ul>
+    </div>
+</nav>
+<!---End of navbar-->
+
+<!----Start of jumbotron-->
+<div class="container">
+    <div class="row ">
+        <div class="jumbotron col-md-12 bg-dark text-center text-white mt-4">
+            <h2 class="display-4 font-weight-bold">Massive Open Online Courses</h2>
+        </div>
+    </div>
+ </div>
+ <!--End of jumbotron-->
+
+<!---Introduction, data source and registration stats-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-10">
+            <section>
+                <p> Massive open online courses (MOOCs) are free online courses open for everyone to enroll. MOOCs are attractive in that it levels the 
+                    playing field and provides opportunities for students from different walks of life and from different countries to study "together" at the 
+                    comfort of their own homes and this is facilitated by leading professors from renowed univeristies at little to no cost. It was sold as an on-demand 
+                    online education to accomodate conflicting family and work responsibilties which offer students the flexibility to study and do life. Schools like University of Maryland 
+                    University College were among the first univeristies to accept MOOCs for credit, since then more institutions have welcomed the idea of 
+                    providing online education for free. MOOCs sadly have simply not lived up to their mission to transform the educational system around the 
+                    world and once again we see how a good free initiative fails.<br><br>
+                    Inspite of the popularity of MOOCs, employers do not regard certifications from MOOCs as valid credentials neither as an alternative to traditional educational insitutions,
+                    in essence, it is pretty useless unless you already possess a degree from an accredited traditional educational insitution.We will analyze the first 
+                    two years of Harvard's attempt at offering open and free courses to all, we will look at its successes, failures and the way forward.
+                </p>
+
+                <h3 class="font-weight-bold text-capitalize">Data Source</h3>
+                <p>The dataset used in this study was obtained from Harvard University's Dataverse website. This dataset includes the De-Identified HarvardX Person-Course information on 
+                    the edX platform for the Academic Year 2012 and 2013. The initial two years on edX Harvard presented five courses only; Introduction to Computer Science,
+                Justice, Health in numbers, Human Health and Global Environmental Change and The Ancient Greek Hero. For dataset, please click this link. <br>
+               <cite>The original datatset had to be deidentified by a research team in compliance with the Family Educational Rights and Privacy Act, which protects the privacy of student records.</cite><br>
+                Variables in the dataset are either administrative indicating they come from the edX system or user-provided indicating that they come from questions
+               asked by edX of the student at the time of registration</p>
+
+                <h3 class="font-weight-bold text-capitalize ">Registration</h3>
+                <h5>Course title and Gender</h5>
+                <p>Out of the <strong>290,498</strong> registrations, <strong>49.2%</strong> of the students registered for Introduction to Computer Science, <strong>16.9%</strong> for Justice, 
+                <strong>13% </strong> for Health in numbers, <strong>12.2%</strong> for Human Health and Global environmental change and finally <strong>8.7%</strong> registered for the Ancient Greek Hero.
+                 When we break this down by gender, males outnumber females in overall regsitration by <strong>106,149</strong>. Analyzing individual course registration, males still outnumber females.
+                 we see this in all the courses listed and even more significantly in the Computer science subject.<br>
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <img src="./css/Registration_course.jpeg" alt="Registration by course" style="width:100%"></div>
+            <div class="column">
+            <img src="./css/Course_registration_gender.jpeg" alt="Course Registration by gender" style="width:100%">
+        </div>
+    </div>
+</div>
+
+<h5>Level of education, Country and Age </h5>
+    The goal of MOOCs is to make world class education accessible to all persons including students from developing countries.We do see however that the 
+        United States leads the pack (which is a developed country) instead of the targeted countries from the global south.
+    <strong>78.8%</strong> of students who registered for the courseware were between ages <strong>16 and 34</strong>, we can be reasonably confident and say that most of the students are either millenials or generation z.
+<strong>68%</strong> of the students who registered for the courseware already possess either a bachelor's, master's or a doctorate degree(s)</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md -6">
+            <img src="./css/Student_registration_by_age.jpeg" alt="Student registration by age" style="width:100%"></div>
+                <div class="col-md-6">
+                        <img src="./css/registration_by_LoE.jpeg" alt="Student registration by age" style="width:100%"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!----End of into, data source and registration stats-->
+
+
+    <div class="row justify-content-center">
+        <div class="column">
+            <img src="./css/Registration_country.jpeg" style="width:100%">
+        </div>
+    </div>
+</div>
+
+
+
+<footer class="bg-dark mt-5 pt-5 ">
+    <div class="container-fluid"></div> 
+        <div class="row">
+        <div class="col text-center text-white">
+        <h4>DATS 6103 - Individual Project 3 - Deborah Aina</h4>
+    </div>
+</footer>
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

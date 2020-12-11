@@ -1,0 +1,21 @@
+:root{
+    --main-font: 'Source serif Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff',cursive;
+    --main-body-font: 'Roboto Mono', monospace;
+}
+
+/*Global variables */
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+  font-size: 1.0rem;
+}
+
+p
+{text-align: justify;}
+h5{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
